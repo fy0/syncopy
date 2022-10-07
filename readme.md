@@ -2,11 +2,15 @@ sync copy
 ----------------
 
 将目录src的文件同步到目录dest，跳过相同文件且保持时间戳不变。
+
 用于备份或迁移数据，存旧如旧。
+
 仅限于Windows，Linux可用`cp -r -p=all src dest`
 
 Sync files from directory src to directory dest, skip same files and preserve all timestamps.
+
 Used for backing up or migrating files. Keep everything in the past.
+
 Only for Windows，Linux use `cp -r -p=all src dest`
 
 

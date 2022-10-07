@@ -1,4 +1,4 @@
-name: Build Js Port
+name: Auto Build
 
 on:
   push:
